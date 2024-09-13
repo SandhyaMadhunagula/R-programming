@@ -1,0 +1,67 @@
+#OPERATORS
+
+#Assignment operator
+
+a=5
+
+b<-4
+
+8->c
+
+d=0
+
+#Arithmetic operator
+
+print(a+b)
+
+print(a-b)
+
+print(c*a)
+
+print(b/c)
+
+remainder=a%%b
+
+print(remainder)
+
+quotient=c%/%b
+
+print(quotient)
+
+#Relational operator
+
+print(a>=b)
+
+print(d<=c)
+
+#Logical operator
+
+print(a&b)
+
+print(c&d)
+
+print(c|d)
+
+print(!a)
+
+print((a>b)&&(c>d))
+
+print((b<=a)||(c>d))
+
+#Miscellaneous operator
+
+r=1:8
+
+print(r)
+
+print(b%in%r)
+
+print(d%in%a)
+
+x=c(1,2,3)
+
+y=c(4,5,6)
+
+print(x%*%y)
+
+print(a%*%b)
