@@ -1,0 +1,12 @@
+#ASSIGNING A VALUE TO THE VARIABLE IN THREE WAYS.
+n=2
+
+a<-3
+
+4->b
+
+print(n)
+
+print(a)
+
+print(b)
