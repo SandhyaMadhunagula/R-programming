@@ -1,0 +1,54 @@
+#DATA STRUCTRUES
+
+#vector:collection of homogenenous data. 
+
+var_name1=c(21,34,5,6,10.9)
+
+var_name2=c(21,"hello",2+5i,4.9,TRUE)
+
+var_name3=c(21,2+5i,4.5,TRUE)
+
+print(var_name1)
+
+print(var_name2)
+print(var_name3)
+
+print(typeof(var_name1))
+
+print(class(var_name1))
+
+#List:collection of heterogenous data.
+ 
+l_name=list(12,3.6,45,6)
+
+l_name2=list("list",8.9,40,TRUE,3+2i)
+
+print(l_name)
+print(l_name2)
+
+#Dataframe:representing the data in tabular format.collections of vectors.
+
+var_name=c("a","b","c","d","e")
+
+s_no=c(21,25.5,100,55,31)
+
+Df=data.frame(var_name,s_no)
+
+print(Df)
+print(class(Df)) #class() can be used to assess the type of an object
+
+print(typeof(Df)) #typeof() can be used to assess the class attribute of an object. 
+
+a=array(c(10,20,30,40,50,60),dim=c(2,3,2))
+
+print(a)
+
+m=matrix(c(2,3,4,5,6,7),nrow=3,ncol=2)
+
+print(m)
+
+print(class(m))
+
+m2=matrix(c(2,3,4,5,6,7),nrow=3,ncol=2,byrow=TRUE)
+
+print(m2)
