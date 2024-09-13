@@ -1,0 +1,9 @@
+a=as.integer(readline("enter the value of a:"))
+b=as.integer(readline("enter the value of b:"))
+if(a>b)
+{
+cat(a+"is greater")
+}else
+{
+cat(b+"is greater")
+}
